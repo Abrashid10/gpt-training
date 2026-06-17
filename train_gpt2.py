@@ -630,4 +630,17 @@ Example;
 dist.init_process_group(backend="nccl")--> it is used for gpu communication
 chatgpt --> section(Fineweb.py Source code)
 
+
+=====github=========
+echo "# gpt-training" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Abrashid10/gpt-training.git
+git push -u origin main
+
+git remote add origin git@github.com:Abrashid10/gpt-training.git
+git branch -M main
+git push -u origin main
 """
